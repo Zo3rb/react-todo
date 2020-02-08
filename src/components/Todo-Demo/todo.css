@@ -1,0 +1,32 @@
+.todoComp > div {
+    width: 50%;
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    background-color: green;
+    font-weight: bold;
+}
+
+.todoComp > div:first-of-type {
+    background-color: #008CBA;
+    color: black;
+}
+
+.todoComp span {
+    line-height: 60px;
+}
+
+.todoComp .no-tasks {
+    color: #f44336;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.todoComp .close-btn {
+    cursor: pointer;
+    color: #f44336;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    margin-left: 50px;
+    line-height: 60px;
+}
